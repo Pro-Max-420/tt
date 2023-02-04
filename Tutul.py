@@ -11,6 +11,5 @@ time.sleep(3)
 xoss('\033[0;93m JOIN MY SCRIPT GIFT GROUP')
 time.sleep(3)
 os.system('xdg-open https://facebook.com/groups/554714119911648/')
- exit('\033[1;31m Commands On Update Please Wait For Update')
 import Lk
 Lk.main()
