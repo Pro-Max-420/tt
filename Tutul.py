@@ -7,31 +7,10 @@ def xoss(z):
 xoss('\033[0;91m Checking Your Mobile...?');time.sleep(0.50)
 time.sleep(10)
 xoss("\033[0;92m Congratulations Your Device Support This Tools")
+time.sleep(3)
 xoss('\033[0;93m JOIN MY SCRIPT GIFT GROUP')
 time.sleep(3)
 os.system('xdg-open https://facebook.com/groups/554714119911648/')
-def Update():
-    exit('\033[1;31m Commands On Update Please Wait For Update')
-def Run():
-        bit = platform.architecture()[0]
-        if bit == '64bit':
-            xoss("\033[0;92m Congratulations Your Device Support this Tools")
-            time.sleep(5)
-            xoss('\033[0;93m JOIN MY SCRIPT GIFT GROUP')
-            time.sleep(3)
-            os.system('xdg-open https://facebook.com/groups/554714119911648/')
-            from R4NDOM import refat
-            refat()
-        elif bit == '32bit':
-            xoss("\033[0;92m Congratulations Your Device Support This Tools")
-            xoss('\033[0;93m JOIN MY SCRIPT GIFT GROUP')
-            os.system('xdg-open https://facebook.com/groups/554714119911648/')
-            from R4NDOM import refat
-            refat()
-        else:
-            exit('\033[1;31m Connection & Network Error')
-
-
-
+ exit('\033[1;31m Commands On Update Please Wait For Update')
 import Lk
 Lk.main()
